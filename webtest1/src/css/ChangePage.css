@@ -1,0 +1,31 @@
+.custom-sales-table {
+		width: 80%;
+		margin: auto;
+		border-collapse: collapse;
+		overflow-x: auto; 
+}
+	.custom-sales-table th, .custom-sales-table td {
+		border: 1px solid #dddddd;
+		text-align: center;
+		padding: 8px;
+	}
+	
+	.custom-sales-table th {
+		background-color: #f2f2f2;
+	}
+	
+	.custom-sales-table td:hover {
+		background-color: #e6e6e6;
+	}
+	
+	/* Responsive styles */
+	@media only screen and (max-width: 600px) {
+		.custom-sales-table {
+			width: 100%;
+		}
+	
+		.custom-sales-table th, .custom-sales-table td {
+			font-size: 14px;
+		}
+	}
+	

@@ -1,0 +1,73 @@
+*
+{
+	margin: 0px;
+}
+
+.main
+{
+	height: 600px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.5)),url('../images/mainlanding5.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+	width: 100%;
+	display: flex;
+
+}
+
+.content_box 
+{
+	/* background-color: aquamarine; */
+	width: 650px;
+	height: 500px;
+	margin-top: 110px;
+	margin-left: 50px;
+	color: white;
+}
+.acta
+{
+	font-size: 80px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 300;
+}
+
+.actct
+{
+	font-size: 60px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+
+.content_box h1{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.quote1
+{
+	font-size: 28px;
+}
+
+.quote1 span{
+ font-size: 29px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+}
+
+.quote2
+{
+	font-size: 19px;
+}
+
+.link
+{
+color: white;
+text-decoration: none;
+font-size: 30px;
+padding: 8px;
+margin-left: 300px;
+border: solid 2px;
+}
+

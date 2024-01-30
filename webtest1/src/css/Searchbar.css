@@ -1,0 +1,55 @@
+.navbar
+{
+	background-Color:#202020	;
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.search-bar
+{
+	background-Color:#202020	;
+	color: white;
+	margin-left: 300px;
+
+	@media only screen and (max-width: 600px) {
+		width: 250px;
+		margin-left: 0px;
+		height: 40px;
+  }
+	
+}
+
+@media only screen and (max-width: 600px) {
+.search-bar button
+{
+	width: 45px;
+	height: 23px;
+	font-size: 7px;
+}
+}
+
+.search-bar input
+{
+	width:300px;
+	margin-Left:5px;
+
+
+	@media only screen and (max-width: 600px) {
+   width: 170px;
+	 height: 25px;
+	 margin-top: 7px;
+	 font-size: 10px;
+	}
+}
+
+.filter-button
+{
+	color:white;
+	align-Items:center;
+
+	@media only screen and (max-width: 600px) {
+
+	 font-size: 7px;
+	}
+}

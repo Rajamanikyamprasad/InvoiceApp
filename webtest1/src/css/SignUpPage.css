@@ -1,0 +1,62 @@
+
+
+.form_box
+{ 
+	margin-top: 100px;
+	height: 800px;
+	color: white;
+	margin-left: 180px;
+	width: 300px;
+}
+
+.signupmain
+{
+	height: 100vh;
+	display: flex;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,0.8)),url('../images/signpage.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+	width: 100%;
+}
+
+.form_box label
+{
+	margin-left: 10px;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form_box input
+{
+	margin-left: 2px;
+	background: none;
+	color: white;
+	width: 200px;
+}
+
+.form_box button
+{
+	margin-left: 50px;
+	margin-top: 25px;
+	padding: 5px;
+	width: 150px;
+	color: white;
+	background: none;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.form_box p{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+
+.form_box h2
+{
+	font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}

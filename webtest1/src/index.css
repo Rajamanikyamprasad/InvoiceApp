@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+
+
+.reportpage1
+{
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),url('./images/einvoice1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  @media only screen and (max-width: 600px) {
+    background-size: contain; 
+    height: 350px;
+
+  }
+} 
+
+.signup h5{
+  margin-left: 50px;
+
+}
+
+.signupbtn
+{
+  background: none;
+  margin-left: 90px;
+  color: white;
+}
+
+
+.modal {
+  display: block; /* Initial state, hidden */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Other styling properties */
+}
+
+.modal.open {
+  display: block; /* Visible when open */
+}
+
+.modal {
+  z-index: 1000;
+  /* Other styling properties */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Other styling properties */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 999; /* Make sure it's below the modal */
+}
